@@ -12,13 +12,29 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	The SA allow you to prepare the exact changes you want to include
+	in a commit. So you can break multiple changes into multiple commits.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches allow for implementing features while keeping a stable main branch.
+	Such as large or experimental changes.
+
 How do the diagrams help you visualize the branch structure?
+
+	Diagrams show the sequence of commits and where they branch off.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Merging takes the latest commit from two branches and combine their files
+	using a merge strategy to produce one commit with the changes made in both
+	branches since their last shared commit
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Merging automatically saves time and uses a consistent method for deciding
+	what goes where in the new commit. Manually merging is time consuming but
+	gives more control over the output.
